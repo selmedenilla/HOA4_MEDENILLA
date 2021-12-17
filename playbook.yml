@@ -1,0 +1,7 @@
+---
+- name: Install ELK
+  hosts: all
+  tasks:
+    - name: Install elasticsearch
+      include_role:
+        name: ELK
